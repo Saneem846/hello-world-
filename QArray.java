@@ -7,7 +7,7 @@ QArray() {
 front = -1;
 rear = -1;
 }
-boolean isFull() {
+boolean isFull() 
 if (front == 0 && rear == SIZE - 1) {
 return true;
 }
